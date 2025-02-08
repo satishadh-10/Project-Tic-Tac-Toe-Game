@@ -3,3 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    color: #fae22d;
+    
+}
+body{
+    background-color: #7776BC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #CDC7E5;
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    border: 0px;
+}
+.boxes{
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.main-Btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 0px;
+    cursor: pointer;
+    font-size: 55px;
+}
+
+.main-Btn:hover{
+    background-color: rgba(229, 227, 232, 0.858);
+}
+
+.reset-Btn{
+    margin-top: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
+    font-weight:600;
+    border: 0px;
+    border-radius: 1rem;
+    background-color: #abf50c;
+    cursor: pointer;
+}
+.new-Btn{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: large;
+    font-weight:600;
+    border: 0px;
+    border-radius: 1rem;
+    background-color: #abf50c;
+    cursor: pointer;
+}
+
+.reset-Btn:hover{
+    background-color: #abf50c;
+    font-size: larger;
+}
