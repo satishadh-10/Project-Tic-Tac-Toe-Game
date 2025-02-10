@@ -3,6 +3,7 @@ let resetBtn = document.querySelector(".reset-Btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector("#msg");
 let newGameBtn = document.querySelector(".new-Btn");
+let score = document.querySelector(".score");
 
 let turnO = true //playerO, playerX;
 

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 h1{
     color: #f5d400;
@@ -11,6 +11,7 @@ h1{
 body{
     background-color: #7776BC;
     text-align: center;
+    overflow: hidden;
 }
 
 .container{
@@ -72,6 +73,10 @@ body{
     background-color: #8ac903;
     font-size: larger;
 }
+.new-Btn:hover{
+    background-color: #8ac903;
+    font-size: larger;
+}
 
 #msg{
     color: rgb(250, 250, 191);
@@ -90,4 +95,14 @@ body{
 
 .hide{
     display: none;
+}
+
+.main-Score{
+    display: flex;
+    flex-direction: column;
+}
+
+.score{
+    color: #f53d00;
+    font-size: 4vmin
 }
